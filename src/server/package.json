@@ -1,0 +1,22 @@
+{
+  "name": "airbnb_analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "python -m pip install requests && python dl_csv.py 1MvPyOcrPqdE5JxUhWi_EpckZKSWT9Tiw ./Modules/calendar.csv && python dl_csv.py 1HzUXF1uVgJ44Tp4hHBC5fHIOGnpn445B ./csv/listings.csv && nodemon server.js",
+    "test": "python -m pip install requests && python dl_csv.py 1MvPyOcrPqdE5JxUhWi_EpckZKSWT9Tiw ./Modules/calendar.csv && python dl_csv.py 1HzUXF1uVgJ44Tp4hHBC5fHIOGnpn445B ./csv/listings.csv && jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv-writer": "^1.6.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.5"
+  }
+}
