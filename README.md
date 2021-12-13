@@ -5,6 +5,9 @@ Airbnb Analysis
 ## Requirements
 * npm , Node.js -- install from [here](https://nodejs.org/en/download/)
 * python, pip -- install from [here](https://www.python.org/downloads/)
+* CSV data sets from [Madrid Airbnb on Kaggle](https://www.kaggle.com/rusiano/madrid-airbnb-data)
+* please do not rename the csv files
+* please add the csv files to ``src/server/csv/``
 
 if you install either of these packages, you must restart the system
 
