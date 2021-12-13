@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "python -m pip install requests && python dl_csv.py 1MvPyOcrPqdE5JxUhWi_EpckZKSWT9Tiw ./Modules/calendar.csv && python dl_csv.py 1HzUXF1uVgJ44Tp4hHBC5fHIOGnpn445B ./csv/listings.csv && nodemon server.js",
-    "test": "python -m pip install requests && python dl_csv.py 1MvPyOcrPqdE5JxUhWi_EpckZKSWT9Tiw ./Modules/calendar.csv && python dl_csv.py 1HzUXF1uVgJ44Tp4hHBC5fHIOGnpn445B ./csv/listings.csv && jest --coverage"
+    "start": "python -m pip install requests && nodemon server.js",
+    "test": "python -m pip install requests && jest --coverage"
   },
   "author": "",
   "license": "ISC",
